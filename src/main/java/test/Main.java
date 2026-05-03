@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println(sb);
 
-        sb.append("3");
+        sb.append("текст");
         System.out.println(sb);
 
         sb.undo();
