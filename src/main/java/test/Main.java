@@ -15,6 +15,9 @@ public class Main {
         System.out.println(sb);
 
         sb.undo();
-        System.out.println("должно быть 12:" + sb);
+        System.out.println("должно быть 12: " + sb);
+
+        sb.undo();
+        System.out.println("должно быть 1: " + sb);
     }
 }
